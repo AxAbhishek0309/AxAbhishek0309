@@ -15,6 +15,8 @@
 ![](https://github-readme-stats.vercel.app/api?username=AxAbhishek0309&theme=vision-friendly-dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=AxAbhishek0309&theme=vision-friendly-dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=AxAbhishek0309&theme=vision-friendly-dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=AxAbhishek0309&theme=radical&no-frame=false&no-bg=true&margin-w=4) 
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
@@ -22,4 +24,10 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=AxAbhishek0309&icon=0&color=7)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) --> 
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Adi101-coder/AxAbhishek0309/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Adi101-coder/AxAbhishek0309/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Adi101-coder/AxAbhishek0309/output/github-snake.svg" />
+</picture>
