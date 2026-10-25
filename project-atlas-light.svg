@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" width="420" height="160">
+  <defs>
+    <style>
+      @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+      .card-bg { fill: #FFFFFF; stroke: #E2E8F0; stroke-width: 1; rx: 8px; }
+      .badge-bg { fill: #E0F2FE; stroke: #0284C7; stroke-width: 0.75; rx: 4px; }
+      .tag-bg { fill: #F1F5F9; stroke: #CBD5E1; stroke-width: 0.75; rx: 3px; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-weight: 700; font-size: 17px; fill: #0F172A; }
+      .desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11.5px; fill: #475569; }
+      .badge-text { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 9.5px; fill: #0369A1; font-weight: 600; letter-spacing: 0.5px; }
+      .tag-text { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 9.5px; fill: #334155; }
+      .indicator { fill: #0284C7; animation: pulse 2.8s infinite ease-in-out; }
+      .grid-line { stroke: #F1F5F9; stroke-width: 0.5; }
+    </style>
+  </defs>
+
+  <rect class="card-bg" width="418" height="158" x="1" y="1"/>
+
+  <line class="grid-line" x1="280" y1="1" x2="280" y2="159"/>
+  <line class="grid-line" x1="1" y1="118" x2="419" y2="118"/>
+
+  <circle class="indicator" cx="395" cy="24" r="3"/>
+  <circle cx="395" cy="24" r="6" fill="none" stroke="#0284C7" stroke-width="0.5" opacity="0.4"/>
+
+  <rect class="badge-bg" x="20" y="16" width="188" height="18"/>
+  <text class="badge-text" x="26" y="29">13.6K+ PROBLEMS · 99.7% PAYLOAD CUT</text>
+
+  <text class="title" x="20" y="58">Atlas</text>
+
+  <text class="desc" x="20" y="78">High-performance DSA &amp; CP platform with SSG streams,</text>
+  <text class="desc" x="20" y="94">offline write-behind queue &amp; 0.94s mobile LCP.</text>
+
+  <g transform="translate(20, 126)">
+    <rect class="tag-bg" x="0" y="0" width="68" height="20"/>
+    <text class="tag-text" x="8" y="14">Next.js 16</text>
+
+    <rect class="tag-bg" x="74" y="0" width="64" height="20"/>
+    <text class="tag-text" x="82" y="14">React 19</text>
+
+    <rect class="tag-bg" x="144" y="0" width="62" height="20"/>
+    <text class="tag-text" x="152" y="14">Firebase</text>
+
+    <rect class="tag-bg" x="212" y="0" width="66" height="20"/>
+    <text class="tag-text" x="220" y="14">PWA Cache</text>
+
+    <rect class="tag-bg" x="284" y="0" width="46" height="20"/>
+    <text class="tag-text" x="292" y="14">Shiki</text>
+  </g>
+</svg>

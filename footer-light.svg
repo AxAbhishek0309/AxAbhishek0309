@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 60" width="900" height="60">
+  <defs>
+    <style>
+      @keyframes fadeWave { 0%, 100% { opacity: 0.08; } 50% { opacity: 0.2; } }
+      .footer-bg { fill: transparent; }
+      .wave-line { stroke: #0284C7; stroke-width: 0.5; fill: none; opacity: 0.12; animation: fadeWave 6s ease-in-out infinite; }
+      .dot { fill: #0284C7; opacity: 0.2; }
+      .footer-text { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 9px; fill: #64748B; opacity: 0.4; letter-spacing: 1px; }
+    </style>
+  </defs>
+  <rect class="footer-bg" width="900" height="60"/>
+
+  <path class="wave-line" d="M0,30 Q50,20 100,30 Q150,40 200,30 Q250,20 300,30 Q350,40 400,30 Q450,20 500,30 Q550,40 600,30 Q650,20 700,30 Q750,40 800,30 Q850,20 900,30" style="animation-delay: 0s;"/>
+  <path class="wave-line" d="M0,35 Q50,25 100,35 Q150,45 200,35 Q250,25 300,35 Q350,45 400,35 Q450,25 500,35 Q550,45 600,35 Q650,25 700,35 Q750,45 800,35 Q850,25 900,35" style="animation-delay: 2s; opacity: 0.08;"/>
+
+  <circle class="dot" cx="100" cy="30" r="1"/>
+  <circle class="dot" cx="300" cy="30" r="1"/>
+  <circle class="dot" cx="450" cy="30" r="1.5"/>
+  <circle class="dot" cx="600" cy="30" r="1"/>
+  <circle class="dot" cx="800" cy="30" r="1"/>
+
+  <text class="footer-text" x="450" y="52" text-anchor="middle">ENGINEERED WITH PRECISION · ABHISHEK TIWARI · 2025</text>
+</svg>
